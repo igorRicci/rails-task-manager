@@ -2,5 +2,8 @@
 <p><%= @task.details %></p>
 <p>Task completed: <%= @task.completed %></p>
 
+
+<hr>
+<%= link_to 'Edit task', edit_task_path %>
 <hr>
 <%= link_to 'Back to list', tasks_path %>
